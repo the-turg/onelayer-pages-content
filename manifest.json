@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "slug": "welcome",
+      "title": "Welcome to OneLayer Portal",
+      "author": "portal@onelayer.com",
+      "category": "Getting Started",
+      "fileType": "html",
+      "createdAt": "2026-04-04T00:00:00Z",
+      "updatedAt": "2026-04-04T00:00:00Z"
+    },
+    {
+      "slug": "servicenow-integration-guide",
+      "title": "ServiceNow Integration Guide",
+      "author": "Or t",
+      "category": "Getting Started",
+      "fileType": "pdf",
+      "createdAt": "2026-04-04T22:47:06.558Z",
+      "updatedAt": "2026-04-04T22:47:06.558Z"
+    }
+  ]
+}

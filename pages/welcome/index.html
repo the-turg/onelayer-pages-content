@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to OneLayer Portal</title>
+  <style>
+    .welcome-container {
+      max-width: 640px;
+      margin: 48px auto;
+      text-align: center;
+      font-family: system-ui, sans-serif;
+    }
+    .welcome-container h1 {
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+    .welcome-container p {
+      color: #64748b;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    .welcome-container .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      background: #dbeafe;
+      color: #1e40af;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-container">
+    <span class="badge">Sample Page</span>
+    <h1>Welcome to OneLayer Portal</h1>
+    <p>
+      This is a sample page to verify the portal build pipeline is working correctly.
+      Pages published via Claude will appear here with the shared navigation chrome.
+    </p>
+    <p>
+      Try publishing your own page by telling Claude:
+      <em>"Push a one-pager about [topic] to the portal."</em>
+    </p>
+  </div>
+  <script>
+    // This script tag intentionally tests that JS is NOT stripped
+    console.log('OneLayer Portal sample page loaded at', new Date().toISOString());
+  </script>
+</body>
+</html>
